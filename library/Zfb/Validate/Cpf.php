@@ -7,6 +7,8 @@
  * @version   $Id$
  */
 
+require_once 'Zend/Validate/Abstract.php';
+
 /**
  * Validador para fazer a validação de CPF (Cadastro de Pessoas Fisicas)
  *

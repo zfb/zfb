@@ -7,8 +7,10 @@
  * @version   $Id$
  */
 
+require_once 'Zend/Validate/Abstract.php';
+
 /**
- * Validador para fazer a validação de CPF (Cadastro de Pessoas Fisicas)
+ * Validador para fazer a validação de CNPJ (Cadastro de Pessoas Juridicas)
  *
  * @category Zfb
  * @package  Zfb_Validate

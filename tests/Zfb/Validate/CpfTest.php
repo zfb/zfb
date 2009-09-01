@@ -1,4 +1,11 @@
 <?php
+/**
+ * Zend Framework Brasil
+ *
+ * @category  Zfb
+ * @package   UnitTests
+ * @version   $Id$
+ */
 
 require_once 'Zfb/Validate/Cpf.php';
 
