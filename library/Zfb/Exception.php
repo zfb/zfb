@@ -8,7 +8,7 @@
  */
 
 /**
- * Validador para fazer a validação de CPF (Cadastro de Pessoas Fisicas)
+ * Generic exception
  *
  * @category Zfb
  * @package  Zfb_Exception
