@@ -7,6 +7,10 @@
  * @version   $Id$
  */
 
+require_once 'Zend/Log/Writer/Abstract.php';
+
+require_once 'Zend/Log/Formatter/Simple.php';
+
 /**
  * Write logs on multiples files
  *
