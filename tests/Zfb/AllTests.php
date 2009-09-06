@@ -9,8 +9,9 @@
 
 require_once 'PHPUnit/Framework/TestSuite.php';
 
-require_once 'Validate/AllTests.php';
 require_once 'Filter/AllTests.php';
+require_once 'Image/AllTests.php';
+require_once 'Validate/AllTests.php';
 
 class Zfb_AllTests
 {
@@ -19,6 +20,7 @@ class Zfb_AllTests
         $suite = new PHPUnit_Framework_TestSuite('Zend Framework Brasil - Zfb');
 
         $suite->addTest(Zfb_Filter_AllTests::suite());
+        $suite->addTest(Zfb_Image_AllTests::suite());
         $suite->addTest(Zfb_Validate_AllTests::suite());
 
         return $suite;

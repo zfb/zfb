@@ -75,6 +75,8 @@ class Zfb_Image_Resize {
 	{
 		if ($this->_needResize()) {
 			$this->_resize();
+		} else {
+			$this->_resizedImage = $this->_image;
 		}
 
 		$this->_saveImage($path);
